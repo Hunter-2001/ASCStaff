@@ -1,0 +1,11 @@
+name: ASCStaff
+version: 1.0
+main: com.ascendpvp.ASCStaff.ASCStaffMain
+author: Str8
+
+commands:
+    staff:
+    sc:
+    sctoggle:
+    cps:
+    freeze:

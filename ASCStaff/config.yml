@@ -1,0 +1,45 @@
+#In seconds
+cps_test_length: 10
+#In days
+admit_ban_length: 30
+
+admit_ban_command: "ipban -s #frozenPlayerIP# #banLength#d #reason#"
+logged_ban_command: "/ipban -s #frozenPlayerIP# #reason#"
+
+# The damage value for glass in the Buy Gui. List of colors: http://minecraft-ids.grahamedgecombe.com/
+frozen_gui_glass_color: 9
+
+messages:
+    staff_incorrect_usage: "&b&lAscendPvP &7> Incorrect usage! Try: &b/staff"
+    staff_no_permission: "&b&lAscendPvP &7> You do not have permission to do that!"
+    staff_off: "&b&lAscendPvP &7> You have left staff mode!"
+    staff_on: "&b&lAscendPvP &7> You have entered staff mode!"
+    staff_chat_incorrect_usage: "&b&lAscendPvP &7> Incorrect usage! Try &b/sc [message]"
+    staff_chat: "&b&l#name# &7> #message#"
+    staff_chat_toggle_incorrect_usage: "&b&lAscendPvP &7> Incorrect usage! Try &b/sctoggle"
+    staff_chat_off: "&b&lAscendPvP &7> StaffChat toggled off!"
+    staff_chat_on: "&b&lAscendPvP &7> StaffChat toggled on!"
+    cps_test_started: "&b&lAscendPvP &7> CPS test commencing for &b#target#&7..."
+    cps_test_finished: "&b&lAscendPvP &7> &b#target# &7averages &b#cps# &7CPS."
+    cps_test_already_running: "&b&lAscendPvP &7> CPS test already running on that player!"
+    cps_test_incorrect_usage: "&b&lAscendPvP &7> Incorrect usage! Try &b/cps [playername]"
+    invalid_target: "&b&lAscendPvP &7> The player you input is invalid!"
+    player_frozen: "&b&lAscendPvP &7> Freezing &b#target#&7..."
+    player_unfrozen: "&b&lAscendPvP &7> UnFreezing &b#target#&7..."
+    frozen_gui_name: "&bYou have been &3FROZEN"
+    frozen_player_damage: "&b&lAscendPvP &7> That player is frozen!"
+    frozen_discord_link: "&7Please join Discord within &b5 &7minutes using Discord code: &bPrnyy65"
+    frozen_admit_to_cheating: "&7Click here to admit to cheating for a &b#banLength# &7Day Ban"
+    frozen_needs_more_time: "&7Click to alert staff that you need more time to join Discord"
+    frozen_joining_discord: "&7Click here if you are about to join Discord"
+    frozen_admit_ban_reason: "&bAdmitted to Cheating"
+    message_frozen_needs_time: "&b&lAscendPvP &7> &b#frozenPlayer# &7has requested more time!"
+    frozen_admit: "&b&lAscendPvP &7> &b#frozenPlayer# &7Admit to cheating"
+    frozen_time_requested: "&b&lAscendPvP &7> You have successfully requested more time"
+    message_frozen_joining_discord: "&b&lAscendPvP &7> &b#frozenPlayer# &7Is currently joining discord!"
+    frozen_discord_notified: "&b&lAscendPvP &7> Admin notified!"
+    frozen_logged_out: "&b&lAscendPvP &7> &b#frozenPlayer# &7Has logged out while frozen! Click &bhere &7to ban them."
+    frozen_logout_ban_reason: "&bDisconnected while frozen"
+    random_tp_message: "&b&lAscendPvP &7>Random TP success! Teleported to: &b#randomPlayer#"
+    vanish_toggled_off: "&b&lAscendPvP &7> Vanish toggled &boff&7!"
+    vanish_toggled_on: "&b&lAscendPvP &7> Vanish toggled &bon&7!"
